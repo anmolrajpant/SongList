@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @cd.name %>
+</p>
+
+<p>
+  <strong>Artist:</strong>
+  <%= @cd.artist %>
+</p>
+
+<p>
+  <strong>Genre:</strong>
+  <%= @cd.genre %>
+</p>
+
+<%= link_to 'Edit', edit_cd_path(@cd) %> |
+<%= link_to 'Back', cds_path %>
